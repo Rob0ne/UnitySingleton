@@ -11,6 +11,11 @@
 			return _instance;
 		}
 	}
+
+	public static bool IsInstanceNull
+	{
+		get{return _instance == null;}
+	}
 	
 	public Singleton()
 	{
